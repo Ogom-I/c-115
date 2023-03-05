@@ -1,0 +1,28 @@
+.heading {
+    border-color:aliceblue;
+    border-width: 5px;
+    border-style: double;
+    font-size: 25px;
+    }
+    
+    canvas{
+        border-color:darkgray ;
+        border-width: 5px;
+        border-style: solid;
+        animation-name: shading;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes shading{
+    from {box-shadow: 1px 1px 38px blue}
+    to {box-shadow: 1px 1px 38px red}
+    }
+    #snapshot:hover{
+        cursor: pointer;
+        background-color: crimson;
+        font-size: 15px;
+    }
+
+    body{
+        background-size: cover;
+    }
